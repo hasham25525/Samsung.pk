@@ -1,0 +1,59 @@
+* {
+    font-family: 'SamsungOne', arial, sans-serif;
+}
+
+.samLogo {
+    width: 103.5px;
+}
+
+.icon {
+    width: 22px;
+    padding: 6px;
+    display: inline-block;
+
+}
+
+li,
+nav {
+    display: inline-flex;
+}
+
+nav {
+    margin: 0 8%;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.n1 {
+    padding-top: 1px;
+}
+
+li {
+    padding: 6px;
+
+}
+
+.n2 {
+    padding-top: 1px;
+    position: absolute;
+    padding-right: 8%;
+    right: 160px;
+
+}
+
+.icons {
+    padding-top: 10px;
+    position: absolute;
+    padding-right: 8%;
+    right: 2px;
+}
+
+nav li:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+}
+
+main {
+    margin: 0 15px;
+}
