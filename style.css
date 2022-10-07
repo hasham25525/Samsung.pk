@@ -1,9 +1,15 @@
+@import url('http://fonts.cdnfonts.com/css/samsung-sans-4');
+@import url('http://fonts.cdnfonts.com/css/samsung-sharp-sans');
+
 * {
-    font-family: 'SamsungOne', arial, sans-serif;
+    font-family: 'Samsung Sans', sans-serif;
+    padding: 0;
 }
 
-h1 {
-    font-family: 'SamsungSharpSans', arial, sans-serif;
+h1,
+h2 {
+    font-family: 'Samsung Sharp Sans', sans-serif;
+
 }
 
 .z {
@@ -37,7 +43,8 @@ nav {
 }
 
 li {
-    padding: 6px;
+    padding: 10px 15px;
+    cursor: pointer;
 
 }
 
@@ -67,6 +74,20 @@ main {
 
 }
 
+.sectional-headings {
+    padding: 20px 0;
+    margin-bottom: 0;
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 2.5vw;
+    letter-spacing: 1.2;
+    font-weight: bolder;
+}
+
 div.fold {
     background-image: url('img/Home_Combo_KV_Main-KV_1440x640_pc_preview.jpg');
     width: 100%;
@@ -75,34 +96,36 @@ div.fold {
 
 }
 
-div.fold h1 {
+div.fold div {
     padding: 100px 0 0 40px;
-}
-
-li.black {
-    background-color: #000;
-    color: #fff;
-    border-radius: 20px;
-}
-
-li.black:hover {
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 h1.center,
 ul.center {
     text-align: center;
     padding: 0;
-    margin: 50px 0 0 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 0 0;
+}
+
+#hover div,
+.alg-cen {
+    text-align: center;
 }
 
 ul.center li:hover {
     text-decoration: underline;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(0, 0, 0, 0.811);
+
 }
 
+
 .s22u {
-    margin: 50px 7px;
-    width: 530px;
+    margin: 50px 3px;
+    width: 100%;
     height: 620px;
     border-radius: 20px;
     background-color: rgba(236, 232, 227, 0.60);
@@ -110,15 +133,16 @@ ul.center li:hover {
 }
 
 img {
-    width: 345px;
+    width: 340px;
     padding: 70px 50px 5px 50px;
-    margin: 20px 0 0 70px;
+    margin: 20px 0 0 20px;
     transition: .5s ease;
 }
 
 .main-content {
     display: inline-block;
     margin: 0;
+    height: 680px;
 }
 
 .hidden {
@@ -138,7 +162,7 @@ img {
 }
 
 li.card-button {
-    margin: 0 200px;
+    margin: 0 170px;
     background-color: #000;
     color: #fff;
     border-radius: 20px;
@@ -150,7 +174,7 @@ li.card-button:hover {
 
 .promos {
     display: inline-block;
-    width: 250px;
+    width: 40%;
     height: 300px;
     margin: 10px;
     border-radius: 20px;
@@ -165,26 +189,73 @@ h3 {
 
 .promos img {
     width: 150px;
-    padding: 0;
+    padding: 15px 50px 5px 50px;
+    margin: 0px 0px 5px 0px;
     transition: .5s ease;
 }
 
+
+ul.mobile li {
+
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.mobile li:hover {
+    text-decoration: underline;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(0, 0, 0, 0.811);
+}
+
+li.black,
 li.button {
-    margin: 0 60px;
     background-color: #000;
     color: #fff;
     border-radius: 20px;
 }
 
+li.black:hover,
 li.button:hover {
     background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-decoration: none;
+}
+
+.section2-fold {
+    margin: 10px 0 0 200px;
+    width: 660px;
+    height: 400px;
+    background: url('/img/Home_Q4_KV_MX-KV_743X418_pc.jpg');
+}
+
+.black.center {
+    margin: -10px 43.5% 0 43.5%;
+}
+
+.section3 {
+    height: 766px;
+    margin: 0 -140px;
+    background: url('/img/Premier-Frame-banner-1440x810-No-text.jpg') center;
+}
+
+.sub-section {
+    margin-top: 450px;
+    text-align: center;
+}
+
+.section4 {
+
+    height: 766px;
+    margin: 0 -140px;
+    background: url('/img/Desktop_WM_1440-810_new.jpg') center;
 }
 
 
-
 .link-img {
-    width: 530px;
-    height: 530px;
+    width: 500px;
+    height: 500px;
 }
 
 .link-img img {
@@ -197,12 +268,14 @@ li.button:hover {
 #links {
     display: inline-flex;
     display: flex;
-    width: 684px;
+    width: 570px;
     height: 64px;
     align-items: center;
     transition: .5s ease;
 
+
 }
+
 
 .teaser-list {
     width: 64px;
@@ -213,9 +286,9 @@ li.button:hover {
 }
 
 .teaser-list-title {
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'SamsungSharpSans', arial, sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     overflow: hidden;
 
 }
@@ -241,7 +314,8 @@ li.button:hover {
 
 
 #button {
-    margin: 0px 0 0 25px;
+    margin: 0px 0 0 40px;
+    font-size: 14px;
     font-weight: bold;
     display: none;
     transition: 1s ease;
