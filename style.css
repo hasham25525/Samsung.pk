@@ -338,6 +338,9 @@ div.search {
 }
 
 input {
+    width: 31.11111111vw;
+    height: 3.47222222vw;
+    margin-bottom: 1.11111111vw;
     padding: 0.83333333vw 3.33333333vw 0.83333333vw 4.44444444vw;
     border-radius: 1.52777778vw;
     padding: 12px 48px 12px 64px;
@@ -348,7 +351,6 @@ input {
 .search-icon {
     display: flex;
     position: absolute;
-    margin: 5px 0 0 -100px;
-    z-index: 2;
+    margin: 0.5vw 0 0 -13vw;
 
 }
