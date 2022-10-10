@@ -329,3 +329,26 @@ li.button:hover {
 .links:hover #button {
     display: block;
 }
+
+
+div.search {
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+    padding: 0.83333333vw 3.33333333vw 0.83333333vw 4.44444444vw;
+    border-radius: 1.52777778vw;
+    padding: 12px 48px 12px 64px;
+    background: #f7f7f7;
+    border: 1px solid #757575;
+}
+
+.search-icon {
+    display: flex;
+    position: absolute;
+    margin: 5px 0 0 -100px;
+    z-index: 2;
+
+}
