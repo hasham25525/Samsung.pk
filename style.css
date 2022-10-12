@@ -34,13 +34,14 @@ nav {
 }
 
 nav {
-    margin: 0 8%;
+    margin: 0;
     font-size: 13px;
     font-weight: 600;
 }
 
 .n1 {
     padding-top: 1px;
+    margin-left: 50px;
 }
 
 li {
@@ -52,7 +53,6 @@ li {
 .n2 {
     padding-top: 1px;
     position: absolute;
-    padding-right: 8%;
     right: 160px;
 
 }
@@ -60,7 +60,6 @@ li {
 .icons {
     padding-top: 10px;
     position: absolute;
-    padding-right: 8%;
     right: 2px;
 }
 
@@ -198,7 +197,7 @@ h3 {
 
 ul.mobile li {
 
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
 
 }
@@ -225,10 +224,10 @@ li.button:hover {
 }
 
 .section2-fold {
-    margin: 10px 0 0 200px;
+    margin: 10px 0 0 150px;
     width: 660px;
     height: 400px;
-    background: url('/img/Home_Q4_KV_MX-KV_743X418_pc.jpg');
+    background: url('img/Home_Q4_KV_MX-KV_743X418_pc.jpg');
 }
 
 .black.center {
@@ -238,7 +237,7 @@ li.button:hover {
 .section3 {
     height: 766px;
     margin: 0 -140px;
-    background: url('/img/Premier-Frame-banner-1440x810-No-text.jpg') center;
+    background: url('img/Premier-Frame-banner-1440x810-No-text.jpg') center;
 }
 
 .sub-section {
@@ -250,7 +249,7 @@ li.button:hover {
 
     height: 766px;
     margin: 0 -140px;
-    background: url('/img/Desktop_WM_1440-810_new.jpg') center;
+    background: url('img/Desktop_WM_1440-810_new.jpg') center;
 }
 
 
@@ -272,7 +271,7 @@ li.button:hover {
     width: 570px;
     height: 64px;
     align-items: center;
-    transition: .5s ease;
+    transition: .1s ease;
 
 
 }
@@ -303,7 +302,7 @@ li.button:hover {
 
 .links {
 
-    transition: .5s ease;
+    transition: .1s ease;
 }
 
 .links:hover {
@@ -376,7 +375,53 @@ ul.search li:hover {
 .up img {
     width: 50px;
     height: 50px;
+    padding: 0;
+    margin: 0;
     position: fixed;
     bottom: 2px;
     right: 0px;
+}
+
+footer * {
+    color: #616161;
+}
+
+.footer {
+    font-size: 10px;
+    display: flex;
+}
+
+.point_sec {
+    font-size: 10px;
+    padding: 5px 6.6vw;
+}
+
+h3.Title {
+    text-align: left;
+    color: #000;
+}
+
+.column-section {
+    width: 100%;
+    padding-left: 10px;
+    border-top: 1.5px;
+    border-bottom: 1.5px;
+    border-left: .4px;
+    border-right: .4px;
+    border-style: solid;
+    border-color: #c0c0c09a;
+
+}
+
+.SectionList li,
+a {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 4px 0;
+}
+
+.SectionList a:hover {
+    text-decoration: underline;
+    color: rgba(43, 43, 137, 0.915);
 }
